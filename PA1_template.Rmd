@@ -15,7 +15,7 @@ output:
 # Pre-preparation of R code
 ```{r}
 library(knitr)
-opts_chunk$set(echo = TRUE, fig.show = 'hold')
+opts_chunk$set(echo = TRUE, fig.show = 'asis')
 ```
 
 # Libraries to be loaded :
